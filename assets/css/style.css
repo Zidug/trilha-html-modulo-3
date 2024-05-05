@@ -78,18 +78,5 @@ nav ul li a:hover{
     color: black;
     background-color: #BBD7DA;
 }
-div ul {
-    list-style: none;
-}
-div ul li a{
-    display: flex;
-    padding: 10px 10px;
-    color: #2D3736;
-    text-decoration: none;
-    border-radius: 50px;
-}
-div ul li a:hover{
-    color: black;
-    background-color: #BBD7DA;
-}
+
 
