@@ -3,8 +3,15 @@ body, html {
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-ul { list-style: none; padding-left: 5px; }
-a { color:blue; text-decoration: none;}
+ul { 
+    list-style: none;
+    padding-left: 5px; 
+    margin:50 px;
+}
+a { 
+    color:black; 
+    text-decoration: none;
+}
 .bar {
     background-color: #f9f9fb;
     padding:15px;
@@ -31,8 +38,58 @@ a { color:blue; text-decoration: none;}
     padding-left: 15px;
 }
 .sidebar {
+    margin: 10px;
     border-right: solid 1px #cdcdcd;
 }
 figure {
+    margin: 5px;    
     text-align: center;
 }
+.logo{
+    display: flex
+}
+.siteName {
+    text-align: center;
+    margin: 50px;
+    font-family:'DotGothic16';
+    color: black;
+    font-size: 30px;
+}
+.header{
+    background-color: #BBD7DA;
+    display: flex;
+}
+.main{
+    margin: 0px;
+    width: auto;
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li a{
+    display: flex;
+    padding: 10px 10px;
+    color: #2D3736;
+    text-decoration: none;
+    border-radius: 50px;
+}
+nav ul li a:hover{
+    color: black;
+    background-color: #BBD7DA;
+}
+div ul {
+    list-style: none;
+}
+div ul li a{
+    display: flex;
+    padding: 10px 10px;
+    color: #2D3736;
+    text-decoration: none;
+    border-radius: 50px;
+}
+div ul li a:hover{
+    color: black;
+    background-color: #BBD7DA;
+}
+
